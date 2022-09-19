@@ -1,11 +1,16 @@
+// * {
+//   border: 1px solid red;
+// }
+
 .row {
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
-  border: 1px solid #000000;
 }
 
 body {
   height: 2000px;
+  font-family: "Cairo", sans-serif;
+  background-color: #f8f8f8;
 }
 
 //  upper nav
@@ -13,24 +18,91 @@ body {
 .upper__nav {
   position: fixed;
   width: 100%;
-  background-color: #445;
-}
-.upper__nav__input {
-  input {
-    width: 100%;
-    margin-top: 8px;
-    padding: 8px 6px;
+  z-index: 123;
+  color: #2a2c2a;
+  background-color: #ffffff;
+  .upper__nav__logo {
+    img {
+      padding: 0 0 0 47px;
+    }
+  }
+  .upper__nav__input {
+    input {
+      width: 100%;
+      margin-top: 8px;
+      padding: 8px 6px;
+      border: none;
+      background-color: #f4f4f4;
+      font-size: 17px;
+    }
+  }
+
+  .upper__nav__best {
+    font-size: 20px;
+    padding-top: 12px;
   }
 }
 
 .down__nav {
-  background-color: #000000;
+  background-color: #fff;
+  color: #000000d6;
   padding-top: 63px;
-  color: antiquewhite;
+  .down__nav__catigory__Brand {
+    ul {
+      display: flex;
+      justify-content: space-around;
+      padding-top: 5px;
+
+      li {
+        list-style: none;
+        font-size: 19px;
+        a {
+          text-decoration: none;
+          color: antiquewhite;
+        }
+      }
+    }
+  }
+
+  .down__nav__icons {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    ul {
+      display: flex;
+      justify-content: space-around;
+      padding: 9px 0px;
+      margin: 0 16% 0 0px;
+      li {
+        list-style: none;
+        font-size: 13px;
+        padding: 0 6px;
+        i {
+          padding: 0 2px;
+        }
+      }
+    }
+  }
 }
 
 // mainSection__content__item style
+
 .mainSection {
+  .row .accordion {
+    padding: 63px 0px 0px 0px;
+  }
+
+  .mainSection__seconde {
+    margin: 81px 0 0 0;
+  }
+}
+
+.mainSection__content {
+  margin: 83px 0 0 0;
+  h3 {
+    margin: 0 0 48px 0;
+  }
 }
 .mainSection__content__item {
   // box-shadow: 2px 3px 11px 0px;

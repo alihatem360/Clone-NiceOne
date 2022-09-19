@@ -1,29 +1,88 @@
 .row {
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
-  border: 1px solid #000000;
 }
 
 body {
   height: 2000px;
+  font-family: "Cairo", sans-serif;
+  background-color: #f8f8f8;
 }
 
 .upper__nav {
   position: fixed;
   width: 100%;
-  background-color: #445;
+  z-index: 123;
+  color: #2a2c2a;
+  background-color: #ffffff;
 }
-
-.upper__nav__input input {
+.upper__nav .upper__nav__logo img {
+  padding: 0 0 0 47px;
+}
+.upper__nav .upper__nav__input input {
   width: 100%;
   margin-top: 8px;
   padding: 8px 6px;
+  border: none;
+  background-color: #f4f4f4;
+  font-size: 17px;
+}
+.upper__nav .upper__nav__best {
+  font-size: 20px;
+  padding-top: 12px;
 }
 
 .down__nav {
-  background-color: #000000;
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.8392156863);
   padding-top: 63px;
+}
+.down__nav .down__nav__catigory__Brand ul {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5px;
+}
+.down__nav .down__nav__catigory__Brand ul li {
+  list-style: none;
+  font-size: 19px;
+}
+.down__nav .down__nav__catigory__Brand ul li a {
+  text-decoration: none;
   color: antiquewhite;
+}
+.down__nav .down__nav__icons {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.down__nav .down__nav__icons ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 9px 0px;
+  margin: 0 16% 0 0px;
+}
+.down__nav .down__nav__icons ul li {
+  list-style: none;
+  font-size: 13px;
+  padding: 0 6px;
+}
+.down__nav .down__nav__icons ul li i {
+  padding: 0 2px;
+}
+
+.mainSection .row .accordion {
+  padding: 63px 0px 0px 0px;
+}
+.mainSection .mainSection__seconde {
+  margin: 81px 0 0 0;
+}
+
+.mainSection__content {
+  margin: 83px 0 0 0;
+}
+.mainSection__content h3 {
+  margin: 0 0 48px 0;
 }
 
 .mainSection__content__item {
