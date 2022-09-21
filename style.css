@@ -27,6 +27,7 @@ body {
   border: none;
   background-color: #f4f4f4;
   font-size: 17px;
+  border-radius: 5px;
 }
 .upper__nav .upper__nav__best {
   font-size: 20px;
@@ -79,7 +80,6 @@ body {
   border: 1px solid;
 }
 .mainSection__content__header .mainSection__content__productOption .dropdown-toggle:hover, .mainSection__content__header .mainSection__content__productOption .dropdown-toggle:focus {
-  border: none;
   outline: none;
   box-shadow: none;
 }
@@ -195,6 +195,7 @@ body {
   font-size: 12px;
   background: #fff;
   border-radius: 11px 11px 0 0;
+  margin: 12px 0 0 0;
 }
 .mainSection__content__item .mainSection__content__item__title span {
   color: rgba(85, 85, 85, 0.7294117647);
