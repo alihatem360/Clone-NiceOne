@@ -15,6 +15,7 @@ body {
   z-index: 123;
   color: #2a2c2a;
   background-color: #ffffff;
+  padding: 23px 0px;
 }
 .upper__nav .upper__nav__logo img {
   padding: 0 0 0 47px;
@@ -35,7 +36,7 @@ body {
 .down__nav {
   background-color: #fff;
   color: rgba(0, 0, 0, 0.8392156863);
-  padding-top: 63px;
+  padding-top: 117px;
 }
 .down__nav .down__nav__catigory__Brand ul {
   display: flex;
@@ -71,24 +72,129 @@ body {
   padding: 0 2px;
 }
 
-.mainSection .row .accordion {
-  padding: 63px 0px 0px 0px;
+.mainSection__content__header .mainSection__content__productOption .dropdown-toggle {
+  width: 196px;
+  font-size: 15px;
+  padding: 3px 0;
+  border: 1px solid;
 }
-.mainSection .mainSection__seconde {
-  margin: 81px 0 0 0;
+.mainSection__content__header .mainSection__content__productOption .dropdown-toggle:hover, .mainSection__content__header .mainSection__content__productOption .dropdown-toggle:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.mainSection__content__header .mainSection__content__productOption .dropdown-menu {
+  width: 100%;
+}
+.mainSection__content__header .mainSection__content__productOption .dropdown-menu li {
+  width: 100%;
+}
+
+.mainSection__filter {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 21px 20px;
+  font-size: 13px;
+}
+.mainSection__filter .mainSection__filter__item1 p,
+.mainSection__filter .mainSection__filter__item2 p,
+.mainSection__filter .mainSection__filter__item3 p {
+  margin: 0 0;
+  border-bottom: 1px solid #d8d8d8;
+  border-top: 1px solid #d8d8d8;
+  position: relative;
+}
+.mainSection__filter .mainSection__filter__item1 p button,
+.mainSection__filter .mainSection__filter__item2 p button,
+.mainSection__filter .mainSection__filter__item3 p button {
+  font-size: 16px;
+  box-shadow: none;
+  text-align: left;
+}
+.mainSection__filter .mainSection__filter__item1 p button:hover, .mainSection__filter .mainSection__filter__item1 p button:focus,
+.mainSection__filter .mainSection__filter__item2 p button:hover,
+.mainSection__filter .mainSection__filter__item2 p button:focus,
+.mainSection__filter .mainSection__filter__item3 p button:hover,
+.mainSection__filter .mainSection__filter__item3 p button:focus {
+  box-shadow: none;
+}
+.mainSection__filter .mainSection__filter__item1 p i,
+.mainSection__filter .mainSection__filter__item2 p i,
+.mainSection__filter .mainSection__filter__item3 p i {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: 10px 0 0 0;
+}
+.mainSection__filter .mainSection__filter__item1 .collapse,
+.mainSection__filter .mainSection__filter__item2 .collapse,
+.mainSection__filter .mainSection__filter__item3 .collapse {
+  height: auto;
+}
+.mainSection__filter .mainSection__filter__item1 .collapse .card-body,
+.mainSection__filter .mainSection__filter__item2 .collapse .card-body,
+.mainSection__filter .mainSection__filter__item3 .collapse .card-body {
+  padding: 0px;
+  border: none;
+}
+.mainSection__filter .mainSection__filter__item1 .collapse .card-body .list-group,
+.mainSection__filter .mainSection__filter__item2 .collapse .card-body .list-group,
+.mainSection__filter .mainSection__filter__item3 .collapse .card-body .list-group {
+  padding: 5px 0px;
+}
+.mainSection__filter .mainSection__filter__item1 .collapse .card-body .list-group li:first-child input,
+.mainSection__filter .mainSection__filter__item2 .collapse .card-body .list-group li:first-child input,
+.mainSection__filter .mainSection__filter__item3 .collapse .card-body .list-group li:first-child input {
+  outline: none;
+  box-shadow: none;
+  width: 100%;
+  border-radius: 5px;
+  padding: 2px 4px;
+}
+.mainSection__filter .mainSection__filter__item1 .collapse .card-body .list-group li:first-child input:focus,
+.mainSection__filter .mainSection__filter__item2 .collapse .card-body .list-group li:first-child input:focus,
+.mainSection__filter .mainSection__filter__item3 .collapse .card-body .list-group li:first-child input:focus {
+  outline: none;
+  box-shadow: none;
+}
+.mainSection__filter .mainSection__filter__item1 .collapse .card-body .list-group li,
+.mainSection__filter .mainSection__filter__item2 .collapse .card-body .list-group li,
+.mainSection__filter .mainSection__filter__item3 .collapse .card-body .list-group li {
+  border: none !important;
+  width: 100%;
+}
+.mainSection__filter .mainSection__filter__item1 .collapse .card-body .list-group li .input-group input,
+.mainSection__filter .mainSection__filter__item2 .collapse .card-body .list-group li .input-group input,
+.mainSection__filter .mainSection__filter__item3 .collapse .card-body .list-group li .input-group input {
+  margin: 5px 7px 0 0;
+  border-radius: 4px;
+}
+
+.breadcrumb {
+  margin: 0px 0px 14px 0px;
+}
+.breadcrumb li {
+  margin: 8px 17px;
+}
+
+.mainSection__seconde {
+  margin: 60px 0 0 0;
 }
 
 .mainSection__content {
-  margin: 83px 0 0 0;
+  margin: 26px 0 0 0;
 }
 .mainSection__content h3 {
   margin: 0 0 48px 0;
 }
 
 .mainSection__content__item {
-  padding: 8px 5px;
+  padding: 21px 5px;
   font-weight: bold;
   font-size: 12px;
+  background: #fff;
+  border-radius: 11px 11px 0 0;
 }
 .mainSection__content__item .mainSection__content__item__title span {
   color: rgba(85, 85, 85, 0.7294117647);
@@ -121,6 +227,10 @@ body {
   font-size: 14px;
 }
 
+.mainSection__content__item__footer {
+  border-radius: 0 0 7px 7px;
+  background-color: #fff;
+}
 .mainSection__content__item__footer a {
   width: 100%;
   padding: 5px 0;
